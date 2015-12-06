@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subfig}
+
+\begin{document}
+
+\begin{figure}
+    \subfloat[]{\label{sublable1}\includegraphics{figures/beerslaw1.png}} \\
+    \subfloat[]{\label{sublable2}\includegraphics{figures/beerslaw2.png}}
+    \caption{Global caption that can reference \ref{sublable1} and \ref{sublable2}}
+    \label{globallable}
+\end{figure}
+
+\end{document}

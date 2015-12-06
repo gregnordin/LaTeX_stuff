@@ -1,0 +1,9 @@
+*.pyc
+.ipynb_checkpoints
+*.mp4
+*.stl
+*.o
+*.hex
+*.aux
+*.log
+*.gz

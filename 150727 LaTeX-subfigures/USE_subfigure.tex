@@ -1,0 +1,53 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,top=2.5cm,bottom=2.5cm,left=2cm,right=2cm]{geometry}
+\usepackage{amsmath}
+%\usepackage{upgreek}
+\usepackage{enumerate}
+\usepackage{indentfirst}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{siunitx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{chemfig}
+
+\setlength{\parindent}{4ex}
+
+\title{Test subfigure module to make subfigures}
+\author{G Nordin}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\noindent Let's include two figures.
+
+\begin{figure}[ht] \centering
+        \begin{subfigure}{\textwidth}
+                \centering
+                \chemfig{C(=[:0]O)(=[:180]O)}\;
+                \chemfig{H-[::37.775,2]O-[::-75.55,2]H}\;
+                \caption{}
+                \label{fig:database}
+        \end{subfigure}\\[2em]
+        %~ %add desired spacing between images, e. g. ~, \quad, \qquad etc. 
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{\textwidth}
+                \centering
+                \chemfig{C(-[:90]H)(-[:270]H)(=[:0]C(=[:0]C(-[:90]H)(-[:270]H)))}
+                \caption{}
+                \label{fig:partb}
+        \end{subfigure}
+        \caption{}\label{fig:query}
+\end{figure}
+
+In Fig. \ref{fig:query} there are two subfigures, \ref{fig:database} and \ref{fig:partb}
+
+some text. some more text. \ref{fgr:beerslaw1}
+
+\noindent And now we'll reference them as Fig. \ref{fgr:beerslaw1} and Fig. \ref{fgr:beerslaw2}.
+
+
+\end{document}

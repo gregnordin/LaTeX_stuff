@@ -1,0 +1,50 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{comment}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{Test Article}
+%\author{The Author}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+%\section{}
+%\subsection{}
+
+
+\begin{abstract}
+The focus of this proposal is development of a new hybrid microfluidic/nanochannel method for realizing high-sensitivity, label-free biomolecular assays. The use of micro/nanofabrication enables the construction of multiple sensing modules, each having receptors attached for distinct analytes, all of which can sample the same, microliter-scale fluid specimen.
+\end{abstract}
+
+
+\section{My first section}
+Here is a first line.
+In essence, we take advantage of the desirable properties of microfluidics (mass production, manipulation of pLÐ?L volumes, reasonable pressures for flow, advection-based mass transport) in sample delivery, and then, after dynamic nanochannel formation, the small volume and high surface area are ideally suited for sensing measurement. Thus, our approach combines the rapid response time attainable with transport in microfluidic channels with the enhanced sensitivity of nanochannel impedance measurement.\cite{Zou:2006wk}
+
+\ensuremath{a = \frac{1}{x}}, $b = z^2_{max}$
+
+\~n \^o
+
+\subsection{And  a subsection} 
+
+The focus of this proposal is development of a new hybrid microfluidic/nanochannel method for realizing high-sensitivity, label-free biomolecular assays.\footnote{Test footnote} The use of micro/nanofabrication enables the construction of multiple sensing modules, each having receptors attached for distinct analytes, all of which can sample the same, microliter-scale fluid specimen.
+
+This method is thus scalable to multiplexed sensing of many analytes in the same microscale fluid volume, and thus addresses key limitations of existing approaches. The proposed approach will utilize microfluidics for rapid sample transport, followed by dynamic formation of nanochannels for impedance-based sensing of the reduction in nanochannel volume due to target analyte binding to surface-attached receptors.\cite{Zhang:2011ft}
+
+\begin{comment}This method is thus scalable to multiplexed sensing of many analytes in the same microscale fluid volume, and thus addresses key limitations of existing approaches. The proposed approach will utilize microfluidics for rapid sample transport, followed by dynamic formation of nanochannels for impedance-based sensing of the reduction in nanochannel volume due to target analyte binding to surface-attached receptors. 
+\end{comment}
+
+\subsubsection{A subsubsection}
+
+In essence, we take advantage of the desirable properties of microfluidics (mass production, manipulation of pLÐ?L volumes, reasonable pressures for flow, advection-based mass transport) in sample delivery, and then, after dynamic nanochannel formation, the small volume and high surface area are ideally suited for sensing measurement. Thus, our approach combines the rapid response time attainable with transport in microfluidic channels with the enhanced sensitivity of nanochannel impedance measurement.\cite{Zhang:2011ft,Zou:2006wk,Yang:2010to}
+
+\bibliographystyle{ieeetr}
+\bibliography{testBibTeX}
+\end{document}  

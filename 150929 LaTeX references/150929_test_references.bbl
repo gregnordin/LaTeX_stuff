@@ -1,0 +1,59 @@
+\providecommand*{\mcitethebibliography}{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+{\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{5}
+\providecommand*{\natexlab}[1]{#1}
+\providecommand*{\mciteSetBstSublistMode}[1]{}
+\providecommand*{\mciteSetBstMaxWidthForm}[2]{}
+\providecommand*{\mciteBstWouldAddEndPuncttrue}
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*{\mciteBstWouldAddEndPunctfalse}
+  {\let\EndOfBibitem\relax}
+\providecommand*{\mciteSetBstMidEndSepPunct}[3]{}
+\providecommand*{\mciteSetBstSublistLabelBeginEnd}[3]{}
+\providecommand*{\EndOfBibitem}{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}
+{(\emph{\alph{mcitesubitemcount}})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem[Ho \emph{et~al.}(2015)Ho, Ng, Li, and Yoon]{Ho2015}
+C.~M.~B. Ho, S.~H. Ng, K.~H.~H. Li and Y.-J. Yoon, \emph{Lab on a Chip}, 2015,
+  \textbf{15}, 3627--3637\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Bhargava \emph{et~al.}(2014)Bhargava, Thompson, and
+  Malmstadt]{Bhargava2014}
+K.~C. Bhargava, B.~Thompson and N.~Malmstadt, \emph{Proceedings of the National
+  Academy of Sciences}, 2014, \textbf{111}, 15013--15018\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Shallan \emph{et~al.}(2014)Shallan, Smejkal, Corban, Guijt, and
+  Breadmore]{Shallan2014}
+A.~I. Shallan, P.~Smejkal, M.~Corban, R.~M. Guijt and M.~C. Breadmore,
+  \emph{Analytical Chemistry}, 2014, \textbf{86}, 3124--3130\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Au \emph{et~al.}(2014)Au, Lee, and Folch]{Au2014}
+A.~K. Au, W.~Lee and A.~Folch, \emph{Lab on a Chip}, 2014, \textbf{14},
+  1294\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Au \emph{et~al.}(2015)Au, Bhattacharjee, Horowitz, Chang, and
+  Folch]{Au2015}
+A.~K. Au, N.~Bhattacharjee, L.~F. Horowitz, T.~C. Chang and A.~Folch, \emph{Lab
+  Chip}, 2015, \textbf{15}, 1934--1941\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}

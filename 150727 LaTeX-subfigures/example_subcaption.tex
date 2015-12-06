@@ -1,0 +1,42 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{fullpage}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[hypcap=false]{caption}
+\usepackage{subcaption}
+\usepackage{chemfig}
+
+% Title Page
+\title{a}
+\author{}
+
+\begin{document}
+\maketitle
+
+Example taken from the answer at http://tex.stackexchange.com/questions/56275/align-subfigures-vertically.
+
+\begin{figure}[ht] \centering
+        \begin{subfigure}{\textwidth}
+                \centering
+                \chemfig{C(=[:0]O)(=[:180]O)}\;
+                \chemfig{H-[::37.775,2]O-[::-75.55,2]H}\;
+                \caption{}
+                \label{fig:database}
+        \end{subfigure}\\[2em]
+        %~ %add desired spacing between images, e. g. ~, \quad, \qquad etc. 
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[b]{\textwidth}
+                \centering
+                \chemfig{C(-[:90]H)(-[:270]H)(=[:0]C(=[:0]C(-[:90]H)(-[:270]H)))}
+                \caption{}
+                \label{fig:partb}
+        \end{subfigure}
+        \caption{}\label{fig:query}
+\end{figure}
+
+In Fig. \ref{fig:query} there are two subfigures, \ref{fig:database} and \ref{fig:partb}
+
+\end{document}
